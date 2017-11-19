@@ -3,7 +3,6 @@ $( document ).ready(function() {
     $.getJSON('https://api.themoviedb.org/3/movie/upcoming?api_key=e082a5c50ed38ae74299db1d0eb822fe', function(data){
 
         $.each(data.results,function(index,d) {
-            console.log(d);
 
                 var key = index.toString().padStart(2,'0');
 
@@ -27,8 +26,6 @@ $( document ).ready(function() {
                     $("img[id^='nav-dots-"+key+"']").attr('src', 'image/circle-darkgray.png');
                 });
 
-            /*console.log(d);
-            */
         });
     });
 
