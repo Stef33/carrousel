@@ -1,0 +1,63 @@
+body {
+  background-color: #000;
+  text-align: center; }
+  body h1 {
+    color: #4C4C4C; }
+  body #carrousel {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto; }
+  body #slides {
+    overflow: hidden;
+    /* fix ie overflow issue */
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #333333;
+    color: #4C4C4C; }
+    body #slides ul {
+      position: relative;
+      left: 0;
+      top: 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 750px; }
+      body #slides ul li {
+        width: 500px;
+        height: 700px;
+        float: left; }
+        body #slides ul li img, body #slides ul li h3, body #slides ul li p, body #slides ul li div {
+          padding: 5px; }
+        body #slides ul li #stars {
+          height: 30px;
+          width: 500px; }
+          body #slides ul li #stars img {
+            height: 30px;
+            width: 30px; }
+  body #buttons {
+    padding: 0 0 5px 0;
+    width: 500px; }
+    body #buttons a img {
+      height: 50px;
+      width: 50px; }
+    body #buttons #bullets {
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-top: 15px; }
+      body #buttons #bullets li {
+        float: left;
+        list-style: none;
+        padding: 2px; }
+        body #buttons #bullets li a img {
+          height: 15px;
+          width: 15px; }
+    body #buttons #prev {
+      float: left; }
+    body #buttons #next {
+      float: right;
+      margin-top: -28px; }
+
+/*# sourceMappingURL=style.css.map */
